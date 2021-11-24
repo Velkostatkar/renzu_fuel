@@ -101,7 +101,7 @@ end)
 
 RegisterNetEvent('renzu_fuel:jerrycan')
 AddEventHandler('renzu_fuel:jerrycan',function()
-	GiveWeaponToPed(PlayerPedId(),883325847,4500,false,true)
+	GiveItemToPed(PlayerPedId(),883325847,4500,false,true)
 end)
 
 function Round(num,numDecimalPlaces)
